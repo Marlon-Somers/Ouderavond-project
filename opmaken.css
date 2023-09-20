@@ -1,0 +1,32 @@
+body{
+   background-color:#E4FFE1;
+}
+
+h1{
+
+    height: 130px;
+    width: 660px;
+    text-align: center;
+    
+    
+}
+
+h1{
+    text-align: center;
+    width: 385,57;
+    height: 117,2; 
+}
+   
+.logo{
+        float: left;
+        
+}
+
+.ouderavondsign{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    margin-left: 250px;
+}
+
