@@ -30,3 +30,27 @@ h1{
     margin-left: 250px;
 }
 
+.text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.navbar{
+    background:#B2E99E; 
+    font-family: Arial, Helvetica, sans-serif;
+    height: 94px; 
+    width:auto; 
+    
+    
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: black; font-size: 32px; margin-right: 50px; margin-left: 34px; display: inline;
+}
+
