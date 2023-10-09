@@ -1,37 +1,12 @@
 body{
    background-color:#E4FFE1;
+   margin: 20px;
 }
 
-h1{
-
-    height: 130px;
-    width: 660px;
-    text-align: center;
-    
-    
-}
-
-   
 .logo{
         float: left;
         
 }
-
-.ouderavondsign{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    margin-left: 250px;
-}
-
-.text{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-
 
 .nav-links {
     list-style: none;
@@ -60,6 +35,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     width: auto;
     height: 80px; 
+    margin: 10px;
     
 }
 
@@ -78,9 +54,52 @@ li {
 li a {
     color: black;
     font-size: 20px;
-    margin-right: 50px;
+    margin-right: 40px;
     margin-left: 30px;
     display: inline;
-
+    justify-content: center;
 
 }
+
+.green-sqaure{
+    display: flex;
+    width: 40vw;  
+    height: 17vh;
+    background-color: #B2E99E;
+    margin-left: 28vw;
+    font-size: 15vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.plaatje{
+    width: 30VW;
+    margin-top: 8.5vh;
+    margin-left: 65vw ;
+    
+}
+
+.textbar-top{
+    width: 40vw;
+    height: 2.3vh;
+    background-color: #B2E99E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 45vh;
+    margin-left: 2rem;
+    
+    
+    
+}
+
+.textbar-bottom{
+    width: 40vw;
+    height: 2.3vh;
+    background-color: #B2E99E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 95vh;
+    margin-left: 2rem;
+    }
