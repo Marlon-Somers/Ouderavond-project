@@ -1,0 +1,227 @@
+body{
+   background-color:#E4FFE1;
+   margin: 20px;
+}
+
+.logo{
+    float: left;
+        
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    
+}
+
+.nav-links li:not(:last-child) {
+    border-right: 1px solid #888; 
+    margin-right: 20px;
+    padding-right: 20px;
+    
+}
+
+.nav-links li a {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    display:flex;
+}
+
+.navbar{
+    background:#B2E99E; 
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    height: 80px; 
+    margin: 10px;
+    
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+li a {
+    color: black;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-left: 30px;
+    display: inline;
+    justify-content: center;
+}
+
+.green-sqaure{
+    display: flex;
+    width: 40vw;  
+    height: 17vh;
+    background-color: #B2E99E;
+    margin-left: 28vw;
+    font-size: 15vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.plaatje{
+    width: 20VW;
+    height: 27vw;
+    margin-top: 1vh;
+    margin-left: 65vw ;
+}
+
+.canvas-foto{
+    margin-bottom: 10px;
+}
+
+.eduarte-foto{
+    width: 28vw;
+    margin-top: 5vh;
+    justify-content: center;
+}
+.textbar-top-eduarte{
+    width: 40vw;
+    height: 2.3vh;
+    background-color: #B2E99E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 40vh;
+    margin-left: 40rem;
+}
+
+.eduarte-text{
+    font-size: xx-large ;
+}
+
+.textbar-top{
+    width: 40vw;
+    height: 2.3vh;
+    background-color: #B2E99E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 50vh;
+    margin-left: 2rem;
+}
+.textbar-top-canvas{
+    width: 40vw;
+    height: 2.3vh;
+    background-color: #B2E99E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 49vh;
+    margin-left: 40rem;
+}
+
+.text-container{
+    display: flex;
+    text-align: center;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+p{
+    font-size: x-large;
+}
+
+
+.textbar-bottom{
+    width: 40vw;
+    height: 2.3vh;
+    background-color: #B2E99E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 68vh;
+    margin-left: 2rem;
+    }
+
+    .textbar-bottom-canvas{
+    float: right;
+    width: 40vw;
+    height: 2.3vh;
+    background-color: #B2E99E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 68vh;
+    margin-left: 40rem;
+    }
+
+    .textbar-bottom-eduarte{
+    float: right;
+    width: 40vw;
+    height: 2.3vh;
+    background-color: #B2E99E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 77vh;
+    margin-left:40rem;
+
+    }
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background-color: #B2E99E;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .dropdown {
+        position: relative; 
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #B2E99E;
+        text-align: center;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .dropdown-content li {
+        display: block;
+        padding: 10px;
+    }
+    
+    .dropdown-content li a {
+        color: #000000;
+        text-decoration: none;
+    }
+    
+    .nav li:hover .dropdown-content {
+        display: block;
+    }
+
+.footer{
+    margin-top: 225px;
+    float: left
+}
